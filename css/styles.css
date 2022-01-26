@@ -7,6 +7,8 @@
   --primary-background-color: #ffffff;
   --secondary-background-color: #f5f4fa;
   --footer-backgrounf-color: #2f303a;
+  --icon-bg: #ffffff;
+  --icon-color: #afb1b8;
 }
 
 /* -------- General ---------------- */
@@ -306,9 +308,42 @@ button {
 }
 
 .team-position {
+  margin-bottom: 16px;
+
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+}
+
+.team-socials-list {
+  display: flex;
+  justify-content: center;
+}
+
+.team-socials-item + .team-socials-item {
+  margin-left: 10px;
+}
+
+.team-socials-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+
+  background-color: var(--icon-bg);
+  color: var(--icon-color);
+}
+
+.team-socials-link:hover,
+.team-socials-link:focus {
+  background-color: var(--primary-accent-color);
+  color: var(--secondary-accent-color);
+}
+
+.team-socials-icon {
+  fill: currentColor;
 }
 
 /* ------------ Portfolio styles ----------*/
