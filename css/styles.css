@@ -415,6 +415,10 @@ button {
   color: var(--icon-color);
 }
 
+.clients-link:visited {
+  color: none;
+}
+
 .clients-link:hover,
 .clients-link:focus {
   color: var(--primary-accent-color);
