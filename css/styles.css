@@ -397,6 +397,15 @@ button {
 .clients-item {
   display: flex;
   justify-content: center;
+}
+
+.clients-item + .clients-item {
+  margin-left: 30px;
+}
+
+.clients-link {
+  display: flex;
+  justify-content: center;
   align-items: center;
 
   width: 170px;
@@ -407,12 +416,8 @@ button {
   color: var(--icon-color);
 }
 
-.clients-item + .clients-item {
-  margin-left: 30px;
-}
-
-.clients-item:hover,
-.clients-item:focus {
+.clients-link:hover,
+.clients-link:focus {
   color: var(--primary-accent-color);
   border-color: currentColor;
 }
