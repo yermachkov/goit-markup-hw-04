@@ -9,6 +9,7 @@
   --footer-backgrounf-color: #2f303a;
   --icon-bg: #ffffff;
   --icon-color: #afb1b8;
+  --advantages-icon-bg: #f5f4fa;
 }
 
 /* -------- General ---------------- */
@@ -241,6 +242,19 @@ button {
 
 .advantages-item {
   width: 270px;
+}
+
+.advantages-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--advantages-icon-bg);
+  width: 270px;
+  height: 120px;
+}
+
+.advantages-icon {
+  object-position: 50% 50%;
 }
 
 .advantages-title {
