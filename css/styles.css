@@ -408,7 +408,8 @@ button {
   margin-left: 30px;
 }
 
-.clients-item:hover {
+.clients-item:hover,
+.clients-item:focus {
   color: var(--primary-accent-color);
   border-color: currentColor;
 }
@@ -506,6 +507,8 @@ button {
 .footer-container {
   padding-top: 60px;
   padding-bottom: 60px;
+  display: flex;
+  align-items: baseline;
 }
 
 .footer-logo {
@@ -551,4 +554,54 @@ button {
 .address-tel:hover,
 .address-tel:focus {
   color: var(--primary-accent-color);
+}
+
+.footer-right {
+  margin-left: 70px;
+}
+
+.footer-text {
+  margin-bottom: 20px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-accent-color);
+}
+
+.footer-socials-list {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-socials-item {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-socials-item + .footer-socials-item {
+  margin-left: 10px;
+}
+
+.footer-socials-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--secondary-accent-color);
+}
+
+.footer-socials-icon {
+  fill: currentColor;
+}
+
+.footer-socials-link:hover,
+.footer-socials-link:focus {
+  background-color: var(--primary-accent-color);
 }
