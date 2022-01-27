@@ -155,6 +155,8 @@ button {
 }
 
 .header-contacts {
+  display: flex;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -169,15 +171,27 @@ button {
   color: var(--primary-accent-color);
 }
 
-/* ----------- Main page styles ---------------*/
-
-.hero {
-  background-color: var(--footer-backgrounf-color);
-  text-align: center;
+.contacts-icon {
+  margin-right: 10px;
+  fill: currentColor;
 }
 
+/* ----------- Main page styles ---------------*/
+
 .hero-container {
-  padding: 200px 253px;
+  max-width: 1600px;
+  min-height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 200px 452px;
+
+  background-color: #c4c4c4;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/hero-bg.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  background-size: cover;
 }
 
 .hero-title {
