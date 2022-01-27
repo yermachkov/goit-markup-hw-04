@@ -374,6 +374,49 @@ button {
   fill: currentColor;
 }
 
+/* ----- Main page - Our clients section  --------*/
+
+.clients-title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.clients-list {
+  display: flex;
+  justify-content: center;
+}
+
+.clients-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--icon-color);
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: var(--icon-color);
+}
+
+.clients-item + .clients-item {
+  margin-left: 30px;
+}
+
+.clients-item:hover {
+  color: var(--primary-accent-color);
+  border-color: currentColor;
+}
+
+.clients-logo {
+  fill: currentColor;
+}
+
 /* ------------ Portfolio styles ----------*/
 
 .btn-list {
