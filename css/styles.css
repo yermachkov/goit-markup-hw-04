@@ -411,7 +411,6 @@ button {
   width: 170px;
   height: 92px;
   border: 1px solid var(--icon-color);
-  box-sizing: border-box;
   border-radius: 4px;
   color: var(--icon-color);
 }
