@@ -110,6 +110,8 @@ button {
 }
 
 .logo {
+  padding-top: 25px;
+  padding-bottom: 25px;
   margin-right: 93px;
 
   font-family: Raleway;
@@ -191,8 +193,8 @@ button {
     url(../images/hero-bg.jpeg);
   background-repeat: no-repeat;
   background-position: center;
-  text-align: center;
   background-size: cover;
+  text-align: center;
 }
 
 .hero-title {
@@ -351,6 +353,11 @@ button {
   justify-content: center;
 }
 
+.team-socials-item {
+  width: 44px;
+  height: 44px;
+}
+
 .team-socials-item + .team-socials-item {
   margin-left: 10px;
 }
@@ -359,8 +366,8 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 44px;
-  height: 44px;
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
 
   background-color: var(--icon-bg);
@@ -415,10 +422,6 @@ button {
   color: var(--icon-color);
 }
 
-.clients-link:visited {
-  color: none;
-}
-
 .clients-link:hover,
 .clients-link:focus {
   color: var(--primary-accent-color);
@@ -464,10 +467,6 @@ button {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.project-link {
-  color: inherit;
-}
-
 .project-list {
   display: flex;
   flex-wrap: wrap;
@@ -481,8 +480,12 @@ button {
   margin-bottom: 30px;
 }
 
-.project-item:hover,
-.project-item:focus {
+.project-link {
+  color: inherit;
+}
+
+.project-link:hover,
+.project-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
